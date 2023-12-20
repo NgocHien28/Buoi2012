@@ -1,4 +1,5 @@
 import "./App.css";
+import Calc from "./components/Calc";
 // import Count from "./components/Count";
 // import CountUp from "./components/CountUp";
 import Name from "./components/Name";
@@ -8,7 +9,8 @@ function App() {
         <div>
             {/* <Count />
             <CountUp /> */}
-            <Name />
+            {/* <Name /> */}
+            <Calc />
         </div>
     );
 }
