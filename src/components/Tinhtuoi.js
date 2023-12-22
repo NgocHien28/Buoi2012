@@ -18,6 +18,7 @@ export default function Tinhtuoi() {
             <label>Nhập năm sinh: </label>
             <input type="number" value={birthday} onChange={handle_birthday} />
             <br />
+            <p>Hãy xác nhận thông tin</p>
             <p>{name}</p>
             <p>Tuoi: {CurrentYear - birthday}</p>
         </div>
