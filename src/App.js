@@ -1,19 +1,12 @@
 import "./App.css";
+import ES6sample from "./components/ES6sample";
 import Tinhtuoi from "./components/Tinhtuoi";
-// import Calc from "./components/Calc";
-// import CountDown from "./components/CountDown";
-// import CountUp from "./components/CountUp";
-// import Name from "./components/Name";
 
 function App() {
     return (
         <div>
-            {/* <CountDown />
-            <CountUp /> */}
-            {/* <Name /> */}
-            {/* <Name /> */}
-            {/* <Calc /> */}
             <Tinhtuoi />
+            <ES6sample />
         </div>
     );
 }
