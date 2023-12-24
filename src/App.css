@@ -43,4 +43,5 @@ input {
     border: none;
     outline: none;
     color: aliceblue;
+    border-radius: 4px;
 }
