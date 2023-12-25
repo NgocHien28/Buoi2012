@@ -45,3 +45,10 @@ input {
     color: aliceblue;
     border-radius: 4px;
 }
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+p {
+    padding: 10px;
+}

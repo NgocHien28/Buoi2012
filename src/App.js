@@ -1,4 +1,5 @@
 import "./App.css";
+import Account from "./components/Account";
 import ES6sample from "./components/ES6sample";
 import Object from "./components/Object";
 // import Ex2 from "./components/Ex2";
@@ -10,7 +11,8 @@ function App() {
             {/* <Ex1 /> */}
             {/* <Ex2 /> */}
             {/* <ES6sample /> */}
-            <Object />
+            {/* <Object /> */}
+            <Account />
         </div>
     );
 }
