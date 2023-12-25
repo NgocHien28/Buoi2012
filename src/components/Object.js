@@ -11,11 +11,11 @@ export default function Object() {
                 placeholder="Nhập tên"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-                onKeyDown={(e) => {
-                    if (e.key == "Enter") {
-                        setSv({ ...sv, name: text });
-                    }
-                }}
+                // onKeyDown={(e) => {
+                //     if (e.key == "Enter") {
+                //         setSv({ ...sv, name: text });
+                //     }
+                // }}
             />
             <br />
             <input
@@ -25,13 +25,13 @@ export default function Object() {
                 onChange={(e) => setAge(e.target.value)}
                 onKeyDown={(e) => {
                     if (e.key == "Enter") {
-                        setSv({ ...sv, age: age });
+                        setSv({ ...sv, age: age, name: text });
                     }
                 }}
             />
             <br />
             <p>
-                Name:{sv.name}, Age: {sv.age}
+                Name: {sv.name}, Age: {sv.age}
             </p>
         </div>
     );
