@@ -12,8 +12,7 @@ function App() {
             {/* <Ex1 /> */}
             {/* <Ex2 /> */}
             {/* <ES6sample /> */}
-            {/* <Object /> */}
-            <Account />
+            <Object />
         </div>
     );
 }
