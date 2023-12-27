@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export default function Account() {
-    const [info, setInfo] = useState({ id: 1, username: "Lê Văn Hải", password: 12345678 });
+    const [info, setInfo] = useState({ id: 1, username: "", password: "" });
     const [text, setText] = useState("");
     const [pass, setPass] = useState("");
     function handle_loading() {
@@ -39,9 +39,8 @@ export default function Account() {
                 }}
             />
             <br />
-            <p>
-                Username: {info.username}, Password: {info.password}
-            </p>
+            <p>{info.username && "Username: " + info.username}</p>
+            <p>{info.password && "Password: " + info.password}</p>
         </div>
     );
 }
