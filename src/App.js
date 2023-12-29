@@ -1,6 +1,7 @@
 import "./App.css";
 import ApiStudent from "./components/ApiStudent";
 import Login from "./components/Login";
+import Website from "./components/Website";
 
 function App() {
     return (
@@ -9,7 +10,8 @@ function App() {
             {/* <Ex2 /> */}
             {/* <ES6sample /> */}
             {/* <ApiStudent /> */}
-            <Login />
+            {/* <Login /> */}
+            <Website />
         </div>
     );
 }
