@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input {
+    background-color: #cc2f78;
+    padding: 8px 12px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    border-radius: 4px;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+p {
+    padding: 0 10px;
+}
