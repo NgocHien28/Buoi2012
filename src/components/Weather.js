@@ -39,16 +39,18 @@ export default function Weather() {
                     }
                 }}
             />
-            {error && <h1>{error}</h1>}
-            {data && (
-                <div>
-                    <h1>Temp {data.main.temp}</h1>
-                    <h1>City {data.name}</h1>
-                    <h1>Country {data.sys.country}</h1>
-                    <h1>Weather {data.weather[0].description}</h1>
-                    <img src={`http://openweathermap.org/img/w/${data && data.weather[0].icon}.png`} />
-                </div>
-            )}
+            <div>
+                {error && <h1>{error}</h1>}
+                {data && (
+                    <div>
+                        <h1>Temp {data.main.temp}</h1>
+                        <h1>City {data.name}</h1>
+                        <h1>Country {data.sys.country}</h1>
+                        <h1>Weather {data.weather[0].description}</h1>
+                        <img src={`http://openweathermap.org/img/w/${data && data.weather[0].icon}.png`} />
+                    </div>
+                )}
+            </div>
         </div>
     );
 }

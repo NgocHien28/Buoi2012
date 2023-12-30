@@ -2,6 +2,7 @@ import "./App.css";
 import ApiStudent from "./components/ApiStudent";
 import Login from "./components/Login";
 import Weather from "./components/Weather";
+import Weather1 from "./components/Weather1";
 import "./style.css";
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             {/* <ES6sample /> */}
             {/* <ApiStudent /> */}
             {/* <Login /> */}
-            <Weather />
+            {/* <Weather /> */}
+            <Weather1 />
         </div>
     );
 }
