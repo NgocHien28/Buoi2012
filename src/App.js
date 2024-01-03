@@ -1,9 +1,11 @@
 import "./App.css";
 import ApiStudent from "./components/ApiStudent";
 import Login from "./components/Login";
+import ReactStr from "./components/ReactStr";
 import Weather from "./components/Weather";
 import Weather1 from "./components/Weather1";
 import "./style.css";
+
 function App() {
     return (
         <div>
@@ -13,7 +15,8 @@ function App() {
             {/* <ApiStudent /> */}
             {/* <Login /> */}
             {/* <Weather /> */}
-            <Weather1 />
+            {/* <Weather1 /> */}
+            <ReactStr />
         </div>
     );
 }
