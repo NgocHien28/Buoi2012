@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import ReactStr from "./components/ReactStr";
 import Weather from "./components/Weather";
 import Weather1 from "./components/Weather1";
+import Footer from "./components/footer/Footer";
 import "./style.css";
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
             {/* <ApiStudent /> */}
             {/* <Login /> */}
             {/* <Weather /> */}
-            {/* <Weather1 /> */}
+            <Weather1 />
             <ReactStr />
+            <Footer />
         </div>
     );
 }
