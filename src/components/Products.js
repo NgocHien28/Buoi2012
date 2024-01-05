@@ -9,7 +9,7 @@ export default function Products() {
             console.log(res);
             setList(res.data);
         });
-    });
+    }, []);
     return (
         <div>
             {list &&
